@@ -4,7 +4,7 @@ from sys import exit
 
 
 def load_image(name):
-    fullname = path.join('data', name)
+    fullname = path.join(name)
     if not path.exists(fullname):
         print(f'Не удалось найти файл {fullname}')
         exit(1)
